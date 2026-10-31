@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI agent
+AGENTS.md
+CLAUDE.md
+/src/generated/prisma
+
+# AI agent skill directories (Trae / Windsurf / Claude)
+/.agents/
+/.windsurf/
+/.claude/
+
+# AI editor configs (optional, keep local only)
+.cursorrules
+.windsurfrules
+.rules.md
+mcp.json
